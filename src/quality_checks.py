@@ -214,3 +214,74 @@ def check_timeliness(df, dataset_name):
                 ))
 
     return issues
+
+def check_referential_integrity(returns_df, taxpayers_df):
+    issues = []
+    n = len(returns_df)
+
+    valid_tins = set(taxpayers_df["tin"].dropna().astype(str))
+
+    orphans = returns_df["tin"].dropna().astype(str).apply(
+        lambda t: t not in valid_tins
+    ).sum()
+
+    if orphans:
+        issues.append(_issue(
+            dimension    = "Referential Integrity",
+            field        = "tin",
+            description  = "TINs in tax_returns not found in the taxpayer register",
+            affected_rows= int(orphans),
+            total_rows   = n,
+            severity     = "HIGH",
+        ))
+
+    return issues
+
+def run_all_checks(data_dir="data/raw"):
+    # Load datasets
+    taxpayers = pd.read_csv(f"{data_dir}/taxpayer_register.csv")
+    returns   = pd.read_csv(f"{data_dir}/tax_returns.csv")
+
+    all_issues = []
+
+    # Run all checks
+    all_issues += check_completeness(returns,
+                    required_fields=["return_id", "tin", "tax_type",
+                                     "amount_due_ugx", "filing_date"])
+    all_issues += check_validity(returns, "tax_returns")
+    all_issues += check_consistency(returns, "tax_returns")
+    all_issues += check_uniqueness(returns, ["return_id"])
+    all_issues += check_timeliness(returns, "tax_returns")
+    all_issues += check_referential_integrity(returns, taxpayers)
+    all_issues += check_completeness(taxpayers,
+                    required_fields=["tin", "taxpayer_name", "sector", "region"])
+    all_issues += check_validity(taxpayers, "taxpayer_register")
+    all_issues += check_uniqueness(taxpayers, ["tin"])
+
+    # Score each dimension
+    all_dimensions = ["Completeness", "Validity", "Consistency",
+                      "Uniqueness", "Timeliness", "Referential Integrity"]
+
+    dimension_scores = {}
+    for dim in all_dimensions:
+        dim_issues = [i for i in all_issues if i["dimension"] == dim]
+        if not dim_issues:
+            dimension_scores[dim] = 100.0
+        else:
+            dimension_scores[dim] = round(
+                np.mean([i["pass_rate"] for i in dim_issues]), 2
+            )
+
+    overall_score = round(np.mean(list(dimension_scores.values())), 2)
+
+    severity_counts = {"HIGH": 0, "MEDIUM": 0, "LOW": 0}
+    for issue in all_issues:
+        severity_counts[issue["severity"]] += 1
+
+    return {
+        "overall_dq_score": overall_score,
+        "dimension_scores": dimension_scores,
+        "severity_summary": severity_counts,
+        "total_issues":     len(all_issues),
+        "issues":           all_issues,
+    }
