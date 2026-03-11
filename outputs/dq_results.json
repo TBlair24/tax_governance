@@ -1,0 +1,100 @@
+{
+  "overall_dq_score": 95.24,
+  "dimension_scores": {
+    "Completeness": 95.65,
+    "Validity": 96.58,
+    "Consistency": 97.15,
+    "Uniqueness": 94.1,
+    "Timeliness": 91.98,
+    "Referential Integrity": 96.0
+  },
+  "severity_summary": {
+    "HIGH": 4,
+    "MEDIUM": 4,
+    "LOW": 1
+  },
+  "total_issues": 9,
+  "issues": [
+    {
+      "dimension": "Completeness",
+      "field": "tin",
+      "description": "Missing values found in 'tin'",
+      "affected_rows": 94,
+      "total_rows": 2000,
+      "pass_rate": 95.3,
+      "severity": "MEDIUM"
+    },
+    {
+      "dimension": "Completeness",
+      "field": "amount_due_ugx",
+      "description": "Missing values found in 'amount_due_ugx'",
+      "affected_rows": 80,
+      "total_rows": 2000,
+      "pass_rate": 96.0,
+      "severity": "MEDIUM"
+    },
+    {
+      "dimension": "Validity",
+      "field": "amount_due_ugx",
+      "description": "Negative tax amounts are not permitted",
+      "affected_rows": 57,
+      "total_rows": 2000,
+      "pass_rate": 97.15,
+      "severity": "HIGH"
+    },
+    {
+      "dimension": "Validity",
+      "field": "currency",
+      "description": "Non-UGX currency \u2014 all domestic filings must use UGX",
+      "affected_rows": 80,
+      "total_rows": 2000,
+      "pass_rate": 96.0,
+      "severity": "HIGH"
+    },
+    {
+      "dimension": "Consistency",
+      "field": "amount_paid_ugx / amount_due_ugx",
+      "description": "Payment exceeds 150% of amount due \u2014 possible data error",
+      "affected_rows": 57,
+      "total_rows": 2000,
+      "pass_rate": 97.15,
+      "severity": "MEDIUM"
+    },
+    {
+      "dimension": "Uniqueness",
+      "field": "return_id",
+      "description": "Duplicate records found on key fields: ['return_id']",
+      "affected_rows": 118,
+      "total_rows": 2000,
+      "pass_rate": 94.1,
+      "severity": "HIGH"
+    },
+    {
+      "dimension": "Timeliness",
+      "field": "filing_date",
+      "description": "Filing dates set in the future \u2014 likely a data entry error",
+      "affected_rows": 60,
+      "total_rows": 2000,
+      "pass_rate": 97.0,
+      "severity": "MEDIUM"
+    },
+    {
+      "dimension": "Timeliness",
+      "field": "filing_date + filing_status",
+      "description": "Returns still Pending for more than 3 years",
+      "affected_rows": 261,
+      "total_rows": 2000,
+      "pass_rate": 86.95,
+      "severity": "LOW"
+    },
+    {
+      "dimension": "Referential Integrity",
+      "field": "tin",
+      "description": "TINs in tax_returns not found in the taxpayer register",
+      "affected_rows": 80,
+      "total_rows": 2000,
+      "pass_rate": 96.0,
+      "severity": "HIGH"
+    }
+  ]
+}
