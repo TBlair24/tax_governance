@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URA Data Governance Framework</title>
+    <style>
+        /* Design tokens — change these to retheme the whole site */
+        :root {
+            --blue:       #003087;
+            --gold:       #FFD700;
+            --green:      #00C896;
+            --amber:      #FFC107;
+            --red:        #FF4444;
+            --dark:       #0a0a1a;
+            --card:       #111827;
+            --border:     #1e2d4a;
+            --text:       #e2e8f0;
+            --muted:      #94a3b8;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--dark);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        a { color: var(--gold); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav style="
+        background: rgba(0,48,135,0.95);
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        border-bottom: 2px solid var(--gold);
+    ">
+        <span style="font-weight: bold; font-size: 1.1rem; color: var(--gold);">
+            🏛️ URA Data Governance
+        </span>
+        <div style="display: flex; gap: 2rem;">
+            <a href="#pipeline" style="color: white;">Pipeline</a>
+            <a href="#results"  style="color: white;">Results</a>
+            <a href="#skills"   style="color: white;">Skills</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section style="
+        background: linear-gradient(135deg, #001a5c 0%, #003087 50%, #0a0a1a 100%);
+        padding: 6rem 2rem;
+        text-align: center;
+    ">
+        <div style="max-width: 800px; margin: 0 auto;">
+
+            <div style="
+                display: inline-block;
+                background: rgba(255,215,0,0.15);
+                border: 1px solid var(--gold);
+                color: var(--gold);
+                padding: 0.4rem 1rem;
+                border-radius: 999px;
+                font-size: 0.85rem;
+                margin-bottom: 1.5rem;
+            ">
+                📊 Data Science Portfolio Project
+            </div>
+
+            <h1 style="
+                font-size: clamp(2rem, 5vw, 3.5rem);
+                font-weight: 800;
+                margin-bottom: 1.5rem;
+                line-height: 1.2;
+            ">
+                URA Data Governance<br>
+                <span style="color: var(--gold);">Framework</span>
+            </h1>
+
+            <p style="
+                font-size: 1.15rem;
+                color: var(--muted);
+                max-width: 600px;
+                margin: 0 auto 2.5rem;
+            ">
+                An end-to-end data quality and governance pipeline for tax revenue data —
+                detecting, scoring, and resolving data quality issues across
+                six DAMA-aligned dimensions.
+            </p>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="https://taxgovernance.streamlit.app/" target="_blank" style="
+                    background: var(--gold);
+                    color: #000;
+                    font-weight: bold;
+                    padding: 0.85rem 2rem;
+                    border-radius: 8px;
+                    font-size: 1rem;
+                    text-decoration: none;
+                ">
+                    🚀 Launch Live App
+                </a>
+                <a href="https://github.com/TBlair24/tax_governance" target="_blank" style="
+                    background: transparent;
+                    color: white;
+                    font-weight: bold;
+                    padding: 0.85rem 2rem;
+                    border-radius: 8px;
+                    font-size: 1rem;
+                    border: 2px solid white;
+                    text-decoration: none;
+                ">
+                    ⭐ View on GitHub
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PIPELINE -->
+    <section id="pipeline" style="padding: 5rem 2rem; max-width: 1100px; margin: 0 auto;">
+
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem;">
+                How the Pipeline Works
+            </h2>
+            <p style="color: var(--muted); max-width: 600px; margin: 0 auto;">
+                Seven components working together to take raw, messy tax data
+                and produce clean, governed, auditable datasets.
+            </p>
+        </div>
+
+        <div style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        ">
+
+            <!-- Card template — repeat for each stage -->
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 1.75rem;
+                border-top: 3px solid var(--blue);
+            ">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">🏭</div>
+                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--gold);">
+                    Data Generation
+                </h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">
+                    Synthetic taxpayer register and tax return datasets with
+                    seven types of intentionally injected quality issues —
+                    mimicking real URA data problems.
+                </p>
+            </div>
+
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 1.75rem;
+                border-top: 3px solid var(--red);
+            ">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">🔍</div>
+                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--gold);">
+                    Quality Checks Engine
+                </h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">
+                    Custom DQ engine assessing six DAMA-aligned dimensions —
+                    Completeness, Validity, Consistency, Uniqueness,
+                    Timeliness and Referential Integrity.
+                </p>
+            </div>
+
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 1.75rem;
+                border-top: 3px solid var(--amber);
+            ">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">🔗</div>
+                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--gold);">
+                    Lineage Tracking
+                </h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">
+                    SQLite-backed lineage catalogue recording every dataset,
+                    transformation and DQ run — creating a full audit trail
+                    from raw data to clean output.
+                </p>
+            </div>
+
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 1.75rem;
+                border-top: 3px solid var(--green);
+            ">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">🧹</div>
+                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--gold);">
+                    Data Remediation
+                </h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">
+                    Automated cleaning pipeline that removes records failing
+                    quality checks — producing a clean, validated dataset
+                    ready for analytical use.
+                </p>
+            </div>
+
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 1.75rem;
+                border-top: 3px solid var(--gold);
+            ">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">📊</div>
+                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--gold);">
+                    Streamlit Dashboard
+                </h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">
+                    Interactive five-page dashboard with issue explorer,
+                    dimension scores, before vs after comparison,
+                    and full data lineage view.
+                </p>
+            </div>
+
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 1.75rem;
+                border-top: 3px solid var(--muted);
+            ">
+                <div style="font-size: 2rem; margin-bottom: 0.75rem;">📄</div>
+                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--gold);">
+                    PDF Report Generator
+                </h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">
+                    Automated stakeholder report covering executive summary,
+                    dimension scores, issue log and governance policy —
+                    generated fresh on every pipeline run.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- RESULTS -->
+    <section id="results" style="
+        background: linear-gradient(180deg, #0a0a1a 0%, #001a5c 50%, #0a0a1a 100%);
+        padding: 5rem 2rem;
+    ">
+        <div style="max-width: 1100px; margin: 0 auto;">
+
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem;">
+                    Pipeline Results
+                </h2>
+                <p style="color: var(--muted); max-width: 600px; margin: 0 auto;">
+                    Real output from a single pipeline run against
+                    2,000 synthetic tax return records.
+                </p>
+            </div>
+
+            <!-- Top KPI row -->
+            <div style="
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1.5rem;
+                margin-bottom: 3rem;
+            ">
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 2rem;
+                    text-align: center;
+                ">
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--green);">
+                        95.24%
+                    </div>
+                    <div style="color: var(--muted); font-size: 0.9rem; margin-top: 0.5rem;">
+                        Overall DQ Score
+                    </div>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 2rem;
+                    text-align: center;
+                ">
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--text);">
+                        9
+                    </div>
+                    <div style="color: var(--muted); font-size: 0.9rem; margin-top: 0.5rem;">
+                        Issues Detected
+                    </div>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 2rem;
+                    text-align: center;
+                ">
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--amber);">
+                        464
+                    </div>
+                    <div style="color: var(--muted); font-size: 0.9rem; margin-top: 0.5rem;">
+                        Rows Removed
+                    </div>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 2rem;
+                    text-align: center;
+                ">
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--green);">
+                        76.8%
+                    </div>
+                    <div style="color: var(--muted); font-size: 0.9rem; margin-top: 0.5rem;">
+                        Data Retained
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dimension scores -->
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 2rem;
+            ">
+                <h3 style="font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--gold);">
+                    Quality Dimension Scores
+                </h3>
+
+                <div style="display: flex; flex-direction: column; gap: 1rem;">
+
+                    <!-- One row per dimension -->
+                    <div style="display: grid; grid-template-columns: 200px 1fr 60px; align-items: center; gap: 1rem;">
+                        <span style="font-size: 0.9rem;">Completeness</span>
+                        <div style="background: #1e2d4a; border-radius: 999px; height: 8px;">
+                            <div style="width: 95.65%; background: var(--green); height: 8px; border-radius: 999px;"></div>
+                        </div>
+                        <span style="color: var(--green); font-weight: bold; font-size: 0.9rem; text-align: right;">95.65%</span>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 200px 1fr 60px; align-items: center; gap: 1rem;">
+                        <span style="font-size: 0.9rem;">Validity</span>
+                        <div style="background: #1e2d4a; border-radius: 999px; height: 8px;">
+                            <div style="width: 96.58%; background: var(--green); height: 8px; border-radius: 999px;"></div>
+                        </div>
+                        <span style="color: var(--green); font-weight: bold; font-size: 0.9rem; text-align: right;">96.58%</span>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 200px 1fr 60px; align-items: center; gap: 1rem;">
+                        <span style="font-size: 0.9rem;">Consistency</span>
+                        <div style="background: #1e2d4a; border-radius: 999px; height: 8px;">
+                            <div style="width: 97.15%; background: var(--green); height: 8px; border-radius: 999px;"></div>
+                        </div>
+                        <span style="color: var(--green); font-weight: bold; font-size: 0.9rem; text-align: right;">97.15%</span>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 200px 1fr 60px; align-items: center; gap: 1rem;">
+                        <span style="font-size: 0.9rem;">Uniqueness</span>
+                        <div style="background: #1e2d4a; border-radius: 999px; height: 8px;">
+                            <div style="width: 94.10%; background: var(--amber); height: 8px; border-radius: 999px;"></div>
+                        </div>
+                        <span style="color: var(--amber); font-weight: bold; font-size: 0.9rem; text-align: right;">94.10%</span>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 200px 1fr 60px; align-items: center; gap: 1rem;">
+                        <span style="font-size: 0.9rem;">Timeliness</span>
+                        <div style="background: #1e2d4a; border-radius: 999px; height: 8px;">
+                            <div style="width: 91.98%; background: var(--amber); height: 8px; border-radius: 999px;"></div>
+                        </div>
+                        <span style="color: var(--amber); font-weight: bold; font-size: 0.9rem; text-align: right;">91.98%</span>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 200px 1fr 60px; align-items: center; gap: 1rem;">
+                        <span style="font-size: 0.9rem;">Referential Integrity</span>
+                        <div style="background: #1e2d4a; border-radius: 999px; height: 8px;">
+                            <div style="width: 96.00%; background: var(--green); height: 8px; border-radius: 999px;"></div>
+                        </div>
+                        <span style="color: var(--green); font-weight: bold; font-size: 0.9rem; text-align: right;">96.00%</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" style="padding: 5rem 2rem;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem;">
+                    Skills Demonstrated
+                </h2>
+                <p style="color: var(--muted); max-width: 600px; margin: 0 auto;">
+                    Every component of this project maps directly to
+                    the competencies required for a data governance role.
+                </p>
+            </div>
+
+            <div style="
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 1.5rem;
+                margin-bottom: 3rem;
+            ">
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 1.75rem;
+                ">
+                    <h3 style="color: var(--gold); margin-bottom: 1rem;">
+                        🔧 Data Engineering
+                    </h3>
+                    <ul style="color: var(--muted); font-size: 0.9rem; padding-left: 1.2rem; line-height: 2;">
+                        <li>Modular Python pipeline architecture</li>
+                        <li>pandas data transformation and cleaning</li>
+                        <li>SQLite database design and querying</li>
+                        <li>JSON output for downstream consumption</li>
+                    </ul>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 1.75rem;
+                ">
+                    <h3 style="color: var(--gold); margin-bottom: 1rem;">
+                        🏛️ Data Governance
+                    </h3>
+                    <ul style="color: var(--muted); font-size: 0.9rem; padding-left: 1.2rem; line-height: 2;">
+                        <li>DAMA DMBOK six-dimension DQ framework</li>
+                        <li>Data lineage and audit trail tracking</li>
+                        <li>Data catalogue and asset registration</li>
+                        <li>Governance policy documentation</li>
+                    </ul>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 1.75rem;
+                ">
+                    <h3 style="color: var(--gold); margin-bottom: 1rem;">
+                        📊 Data Visualisation
+                    </h3>
+                    <ul style="color: var(--muted); font-size: 0.9rem; padding-left: 1.2rem; line-height: 2;">
+                        <li>Interactive Streamlit dashboard</li>
+                        <li>Progress bars, metrics and expanders</li>
+                        <li>Before vs after comparative analysis</li>
+                        <li>Filterable issue explorer</li>
+                    </ul>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 1.75rem;
+                ">
+                    <h3 style="color: var(--gold); margin-bottom: 1rem;">
+                        📄 Stakeholder Communication
+                    </h3>
+                    <ul style="color: var(--muted); font-size: 0.9rem; padding-left: 1.2rem; line-height: 2;">
+                        <li>Automated PDF report generation</li>
+                        <li>Executive summary with plain English verdict</li>
+                        <li>Colour-coded severity classification</li>
+                        <li>Governance policy in accessible language</li>
+                    </ul>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 1.75rem;
+                ">
+                    <h3 style="color: var(--gold); margin-bottom: 1rem;">
+                        🐍 Python Best Practices
+                    </h3>
+                    <ul style="color: var(--muted); font-size: 0.9rem; padding-left: 1.2rem; line-height: 2;">
+                        <li>Separation of concerns across modules</li>
+                        <li>Helper functions and constants</li>
+                        <li>Docstrings and inline documentation</li>
+                        <li>Reproducible results with random seeds</li>
+                    </ul>
+                </div>
+
+                <div style="
+                    background: var(--card);
+                    border: 1px solid var(--border);
+                    border-radius: 12px;
+                    padding: 1.75rem;
+                ">
+                    <h3 style="color: var(--gold); margin-bottom: 1rem;">
+                        ☁️ Deployment
+                    </h3>
+                    <ul style="color: var(--muted); font-size: 0.9rem; padding-left: 1.2rem; line-height: 2;">
+                        <li>Streamlit Community Cloud deployment</li>
+                        <li>GitHub Pages static site hosting</li>
+                        <li>Git version control and repo management</li>
+                        <li>requirements.txt dependency management</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Tech stack strip -->
+            <div style="
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 1.75rem;
+                text-align: center;
+            ">
+                <h3 style="color: var(--muted); font-size: 0.85rem;
+                    text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1.25rem;">
+                    Tech Stack
+                </h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">Python</span>
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">pandas</span>
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">NumPy</span>
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">Streamlit</span>
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">ReportLab</span>
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">SQLite</span>
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">GitHub Pages</span>
+                    <span style="background: #1e2d4a; padding: 0.4rem 1rem;
+                        border-radius: 999px; font-size: 0.85rem;">Streamlit Cloud</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="
+        background: #030712;
+        border-top: 1px solid var(--border);
+        padding: 2.5rem 2rem;
+        text-align: center;
+    ">
+        <p style="color: var(--gold); font-weight: bold; margin-bottom: 0.5rem;">
+            🏛️ URA Data Governance Framework
+        </p>
+        <p style="color: var(--muted); font-size: 0.85rem; margin-bottom: 1.25rem;">
+            Built as a data science portfolio project targeting public sector data roles in Uganda.
+        </p>
+        <div style="display: flex; gap: 1.5rem; justify-content: center;">
+            <a href="https://taxgovernance.streamlit.app/" target="_blank"
+                style="color: var(--muted); font-size: 0.85rem;">
+                🚀 Live App
+            </a>
+            <a href="https://github.com/tblair24/tax_governance" target="_blank"
+                style="color: var(--muted); font-size: 0.85rem;">
+                ⭐ GitHub Repo
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
