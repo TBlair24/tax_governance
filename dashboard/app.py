@@ -15,7 +15,9 @@ st.set_page_config(
 
 @st.cache_data
 def load_summary():
-    path = "outputs/pipeline_summary.json"
+    # Works both locally and on Streamlit Cloud
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    path = os.path.join(base, "outputs", "pipeline_summary.json")
     if not os.path.exists(path):
         return None
     with open(path) as f:
@@ -23,11 +25,13 @@ def load_summary():
 
 @st.cache_data
 def load_raw():
-    return pd.read_csv("data/raw/tax_returns.csv")
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return pd.read_csv(os.path.join(base, "data", "raw", "tax_returns.csv"))
 
 @st.cache_data
 def load_clean():
-    return pd.read_csv("data/processed/tax_returns_clean.csv")
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return pd.read_csv(os.path.join(base, "data", "processed", "tax_returns_clean.csv"))
 
 st.sidebar.title("🏛️ URA Data Governance")
 st.sidebar.markdown("---")
