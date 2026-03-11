@@ -5,3 +5,4 @@ streamlit
 plotly
 reportlab
 altair<5.0
+standard-imghdr
