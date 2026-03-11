@@ -4,3 +4,4 @@ scikit-learn
 streamlit
 plotly
 reportlab
+altair<5.0
