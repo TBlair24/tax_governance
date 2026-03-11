@@ -1,0 +1,501 @@
+tin,taxpayer_name,sector,region,registration_date,is_active
+3746317213,Company_7213,Manufacturing,Eastern,2010-12-26,True
+4163119785,Company_9785,Transport,Kampala Metropolitan,2003-11-25,True
+1136505587,Company_5587,Manufacturing, Northern,2010-06-08,True
+9703905715,Company_5715,Trade,Kampala Metropolitan,2018-10-26,True
+7825844140,Company_4140,Finance,Central,2007-02-28,True
+6756332150,Company_2150,Trade, Northern,2015-02-05,True
+2631775357,Company_5357,Services,Eastern,2011-11-12,True
+8429141456,Company_1456,Mining,Central,2016-12-23,True
+1298737106,Company_7106,Transport, Northern,2012-12-24,False
+4673561638,Company_1638,Finance,Central,2017-01-18,True
+2566942273,Company_2273,Services,Eastern,2009-05-25,True
+9896606039,Company_6039,Transport, Northern,2023-12-17,True
+5996775663,Company_5663,Agriculture,Eastern,2009-11-07,True
+4332894265,Company_4265,Trade,Central,2014-02-24,True
+1284277889,Company_7889,Mining,Eastern,2009-07-15,True
+2970753705,Company_3705,Services, Northern,2011-01-23,True
+7609857128,Company_7128,Transport,Kampala Metropolitan,2019-03-21,False
+7010379415,Company_9415,Trade, Northern,2022-11-09,True
+4246059658,Company_9658,Finance,Central,2006-11-09,True
+5567816720,Company_6720,Agriculture,Kampala Metropolitan,2020-12-29,True
+9639245200,Company_5200,Transport,Central,2011-12-20,True
+2461042543,Company_2543,Services,Western,2007-02-04,True
+4919706735,Company_6735,Finance,Eastern,2022-10-09,True
+5951406973,Company_6973,Finance, Northern,2023-10-16,False
+7867414708,Company_4708,Agriculture,Central,2005-01-06,False
+2320763135,Company_3135,Manufacturing, Northern,2003-07-14,True
+4289233844,Company_3844,Trade,Western,2007-05-29,True
+6633778586,Company_8586,Transport,Eastern,2019-08-26,False
+2939118223,Company_8223,Trade, Northern,2002-11-15,True
+1945826486,Company_6486,Manufacturing,Central,2010-04-08,True
+2419179580,Company_9580,Mining, Northern,2012-06-28,True
+3030106617,Company_6617,Finance,Western,2018-04-05,True
+7146318035,Company_8035,Agriculture,Western,2020-12-12,False
+9822598054,Company_8054,Transport,Central,2002-09-20,True
+4700855390,Company_5390,Trade, Northern,2008-07-13,True
+5897045684,Company_5684,Trade,Eastern,2020-10-01,True
+4965395580,Company_5580,Agriculture,Kampala Metropolitan,2004-05-23,True
+4590711152,Company_1152,Manufacturing, Northern,2007-06-17,True
+3067418686,Company_8686,Finance,Western,2002-08-18,True
+6971815972,Company_5972,Finance,Western,2012-10-17,True
+8380507338,Company_7338,Trade, Northern,2013-04-23,True
+9841118422,Company_8422,Transport,Kampala Metropolitan,2002-09-25,True
+1245522987,Company_2987,Mining,Western,2022-07-22,False
+3281169403,Company_9403,Manufacturing,Kampala Metropolitan,2003-08-05,False
+9884231465,Company_1465,Manufacturing, Northern,2018-02-10,True
+3553440342,Company_0342,Mining,Central,2018-10-21,True
+2119980130,Company_0130,Transport,Eastern,2010-09-15,True
+8067372072,Company_2072,Agriculture,Eastern,2003-04-03,True
+1429416213,Company_6213,Mining, Northern,2022-09-10,True
+9303285822,Company_5822,Manufacturing, Northern,2016-07-29,True
+3271782991,Company_2991,Transport,Kampala Metropolitan,2013-06-06,False
+4771526597,Company_6597,Services,Central,2004-10-19,True
+5962610986,Company_0986,Services,Kampala Metropolitan,2009-06-12,True
+7393195616,Company_5616,Finance,Central,2004-02-21,True
+8856990236,Company_0236,Manufacturing,Central,2014-12-17,True
+2125089309,Company_9309,Transport,Western,2019-03-09,True
+1480494664,Company_4664,Transport, Northern,2001-08-13,True
+5931025271,Company_5271,Trade,Central,2013-10-29,True
+2536778950,Company_8950,Transport, Northern,2004-08-11,True
+9051829827,Company_9827,Mining, Northern,2010-08-14,False
+4482238042,Company_8042,Agriculture,Central,2008-01-17,True
+9292791081,Company_1081,Finance, Northern,2011-12-20,True
+4011966884,Company_6884,Agriculture,Central,2021-02-10,True
+7271954644,Company_4644,Services, Northern,2009-12-31,True
+6124453431,Company_3431,Services,Eastern,2003-02-11,False
+6493800024,Company_0024,Transport,Kampala Metropolitan,2017-12-05,True
+1118543408,Company_3408,Services, Northern,2011-11-28,True
+7857221324,Company_1324,Services,Eastern,2019-07-29,True
+3196545325,Company_5325,Agriculture,Kampala Metropolitan,2008-07-11,True
+8339176912,Company_6912,Manufacturing,Kampala Metropolitan,2008-11-02,True
+4642197907,Company_7907,Transport,Eastern,2022-09-30,True
+7049001493,Company_1493,Agriculture,Eastern,2005-09-16,True
+7739255769,Company_5769,Agriculture,Kampala Metropolitan,2000-01-07,True
+6197695041,Company_5041,Finance,Kampala Metropolitan,2014-06-15,True
+5659161352,Company_1352,Mining,Kampala Metropolitan,2015-01-13,True
+2333241445,Company_1445,Finance, Northern,2006-08-11,True
+5607762160,Company_2160,Agriculture,Kampala Metropolitan,2008-09-20,True
+6944142262,Company_2262,Agriculture, Northern,2006-08-14,True
+2825989011,Company_9011,Trade,Kampala Metropolitan,2020-11-02,True
+4643576871,Company_6871,Agriculture, Northern,2020-11-03,True
+7852415525,Company_5525,Finance,Western,2022-08-23,True
+8995059760,Company_9760,Agriculture,Eastern,2011-02-02,True
+6322520473,Company_0473,Agriculture,Central,2012-10-25,True
+6737421496,Company_1496,Mining,Central,2006-03-17,True
+1918920620,Company_0620,Agriculture,Western,2014-11-04,True
+2785736751,Company_6751,Trade,Western,2017-06-21,False
+3987248494,Company_8494,Finance,Kampala Metropolitan,2017-01-23,True
+9344011888,Company_1888,Services,Western,2018-10-18,True
+4856070374,Company_0374,Agriculture, Northern,2012-03-29,True
+5419627962,Company_7962,Services,Western,2007-05-28,True
+4949401194,Company_1194,Mining,Kampala Metropolitan,2001-03-17,False
+3847562279,Company_2279,Manufacturing,Western,2006-02-01,False
+1780520225,Company_0225,Services,Western,2014-09-07,True
+6698759353,Company_9353,Finance,Western,2012-06-24,True
+8868054898,Company_4898,Services,Central,2021-02-04,True
+3316787198,Company_7198,Services, Northern,2003-01-29,True
+3799264931,Company_4931,Finance,Central,2011-02-03,True
+9677466102,Company_6102,Trade, Northern,2005-08-30,True
+5070585433,Company_5433,Agriculture,Eastern,2016-07-18,True
+4518871744,Company_1744,Services,Central,2001-02-24,False
+6906898409,Company_8409,Transport, Northern,2003-05-30,True
+2043030161,Company_0161,Transport,Eastern,2005-06-06,True
+5471357886,Company_7886,Mining,Western,2016-08-15,True
+8076144396,Company_4396,Manufacturing,Western,2021-12-27,True
+9421518487,Company_8487,Transport,Western,2006-11-11,True
+7371573279,Company_3279,Agriculture,Kampala Metropolitan,2012-01-15,True
+5014170428,Company_0428,Services,Western,2010-12-09,True
+8164814926,Company_4926,Services,Central,2022-03-04,False
+6075963527,Company_3527,Trade,Eastern,2011-08-03,True
+9633533290,Company_3290,Trade,Central,2010-10-29,True
+4256292393,Company_2393,Transport,Western,2022-01-06,True
+1074059253,Company_9253,Services, Northern,2018-02-20,True
+7792729530,Company_9530,Agriculture,Kampala Metropolitan,2023-10-25,True
+7658867789,Company_7789,Services,Western,2012-02-25,True
+1990153355,Company_3355,Transport, Northern,2014-02-25,True
+1795212538,Company_2538,Trade,Western,2012-05-27,True
+6128695961,Company_5961,Trade,Eastern,2008-01-18,True
+5838636972,Company_6972,Manufacturing,Central,2013-02-07,True
+3108307952,Company_7952,Finance,Central,2012-10-02,True
+7186766399,Company_6399,Trade,Central,2011-04-29,False
+3051831252,Company_1252,Finance,Central,2017-12-22,True
+3948284698,Company_4698,Trade, Northern,2013-08-18,True
+2065972034,Company_2034,Mining,Western,2010-02-14,True
+6928678489,Company_8489,Agriculture,Eastern,2019-03-27,True
+3667292043,Company_2043,Mining,Central,2009-04-27,True
+1348697524,Company_7524,Trade, Northern,2003-05-14,True
+7049536909,Company_6909,Transport,Kampala Metropolitan,2021-01-29,True
+6289150149,Company_0149,Transport,Eastern,2020-05-13,True
+6144594354,Company_4354,Manufacturing,Kampala Metropolitan,2010-01-31,True
+9196564761,Company_4761,Finance, Northern,2003-03-15,True
+8699281063,Company_1063,Mining,Kampala Metropolitan,2012-12-11,True
+7614170462,Company_0462,Agriculture,Central,2001-10-15,False
+8449766493,Company_6493,Mining,Eastern,2001-02-27,True
+5083595988,Company_5988,Finance,Eastern,2001-10-21,True
+6047405755,Company_5755,Mining,Western,2012-06-23,True
+7808938880,Company_8880,Transport,Western,2004-02-03,True
+7048809022,Company_9022,Services,Central,2007-03-19,True
+8274273035,Company_3035,Services,Western,2001-08-24,True
+6645808194,Company_8194,Services,Central,2018-02-17,False
+9594878379,Company_8379,Finance,Kampala Metropolitan,2020-09-21,True
+8543865915,Company_5915,Transport,Western,2002-04-25,True
+3358880404,Company_0404,Services,Western,2021-09-28,True
+5975196341,Company_6341,Mining,Central,2018-04-20,True
+4921003983,Company_3983,Agriculture,Central,2006-11-27,True
+8372755146,Company_5146,Mining,Eastern,2018-08-21,True
+9505085936,Company_5936,Trade,Western,2006-06-27,True
+4776677517,Company_7517,Finance,Central,2012-05-23,True
+8964640525,Company_0525,Services,Kampala Metropolitan,2011-12-26,True
+5933179746,Company_9746,Mining,Western,2015-06-25,True
+6915072151,Company_2151,Services, Northern,2010-09-17,True
+8625905455,Company_5455,Manufacturing,Eastern,2021-03-20,True
+8779941999,Company_1999,Agriculture, Northern,2022-03-21,False
+8924383984,Company_3984,Manufacturing,Kampala Metropolitan,2020-06-30,True
+5914110094,Company_0094,Finance, Northern,2003-05-10,True
+9457665185,Company_5185,Services,Kampala Metropolitan,2017-10-30,True
+8953271391,Company_1391,Finance,Kampala Metropolitan,2017-01-17,False
+3323646093,Company_6093,Mining,Central,2010-07-13,True
+9250327663,Company_7663,Trade,Central,2019-06-20,False
+5726642606,Company_2606,Trade,Eastern,2001-04-19,True
+4419410162,Company_0162,Services,Eastern,2016-10-24,True
+1773338452,Company_8452,Trade,Central,2017-02-27,True
+6329323383,Company_3383,Mining, Northern,2010-06-01,True
+6385791669,Company_1669,Services,Central,2020-11-13,False
+1678500147,Company_0147,Agriculture,Eastern,2013-06-02,True
+6369130994,Company_0994,Finance,Eastern,2008-12-07,False
+8960015186,Company_5186,Manufacturing, Northern,2017-02-08,True
+7763765757,Company_5757,Transport,Eastern,2000-12-25,False
+8122042835,Company_2835,Services,Central,2002-03-14,False
+8495457335,Company_7335,Finance,Eastern,2010-04-28,True
+2513206988,Company_6988,Transport, Northern,2011-03-30,True
+4600630513,Company_0513,Transport,Central,2001-10-07,True
+2893321208,Company_1208,Mining,Eastern,2005-11-23,True
+6562457052,Company_7052,Transport,Western,2007-11-17,True
+6001680218,Company_0218,Finance,Western,2013-03-28,True
+5789617427,Company_7427,Manufacturing, Northern,2010-02-13,False
+9503787171,Company_7171,Finance,Kampala Metropolitan,2016-05-28,True
+2694684834,Company_4834,Services,Kampala Metropolitan,2005-07-17,True
+8182649048,Company_9048,Mining,Western,2016-08-30,True
+6299224734,Company_4734,Manufacturing,Kampala Metropolitan,2014-09-18,False
+9861449701,Company_9701,Finance,Western,2013-07-22,True
+1501119337,Company_9337,Manufacturing,Central,2013-08-26,False
+1498733671,Company_3671,Trade,Kampala Metropolitan,2006-01-31,True
+7615076397,Company_6397,Mining, Northern,2018-08-11,True
+8875651818,Company_1818,Mining,Western,2012-07-19,True
+2591414076,Company_4076,Agriculture,Western,2010-08-04,False
+8239941612,Company_1612,Mining,Eastern,2002-09-19,True
+2952996248,Company_6248,Transport, Northern,2000-12-15,True
+2432410914,Company_0914,Trade,Kampala Metropolitan,2009-03-16,True
+4735313433,Company_3433,Services, Northern,2000-02-16,True
+5226368665,Company_8665,Trade,Kampala Metropolitan,2011-03-30,True
+4721365350,Company_5350,Trade,Central,2016-01-26,True
+2390587865,Company_7865,Trade,Eastern,2002-05-08,True
+5567946981,Company_6981,Agriculture,Eastern,2023-01-08,True
+3641863774,Company_3774,Transport,Kampala Metropolitan,2013-07-12,True
+5140460939,Company_0939,Manufacturing,Western,2018-01-06,True
+5758659815,Company_9815,Transport,Western,2003-04-19,False
+1637088959,Company_8959,Trade,Eastern,2014-08-02,True
+6561543484,Company_3484,Mining,Kampala Metropolitan,2019-04-19,True
+4014119648,Company_9648,Finance,Kampala Metropolitan,2009-08-23,True
+4814321889,Company_1889,Agriculture,Eastern,2020-05-05,True
+4133661881,Company_1881,Services,Western,2014-01-07,True
+9259157845,Company_7845,Manufacturing,Central,2003-10-30,True
+8468071953,Company_1953,Finance, Northern,2002-09-09,True
+5819946657,Company_6657,Services,Western,2002-04-22,False
+7873709012,Company_9012,Services,Central,2022-10-05,True
+8115628227,Company_8227,Trade,Central,2015-09-15,True
+2578662692,Company_2692,Finance,Eastern,2010-02-22,True
+9702693937,Company_3937,Transport,Eastern,2001-04-19,True
+6754503097,Company_3097,Manufacturing, Northern,2006-06-05,True
+2721355673,Company_5673,Trade,Central,2004-02-12,True
+6218955985,Company_5985,Agriculture,Western,2015-04-17,True
+3560761628,Company_1628,Manufacturing, Northern,2007-01-23,True
+9803662851,Company_2851,Manufacturing,Eastern,2019-11-16,True
+7193532615,Company_2615,Services, Northern,2022-12-25,True
+2846465000,Company_5000,Services,Kampala Metropolitan,2021-10-29,True
+2324651201,Company_1201,Trade,Western,2002-06-16,True
+6392415228,Company_5228,Services,Central,2000-05-06,True
+2849649210,Company_9210,Trade,Western,2023-11-21,True
+8757570742,Company_0742,Manufacturing,Western,2001-11-24,True
+8044354825,Company_4825,Services,Central,2018-03-03,True
+2394868732,Company_8732,Finance,Kampala Metropolitan,2020-08-21,True
+9245348297,Company_8297,Manufacturing,Western,2004-09-30,True
+7824150224,Company_0224,Mining,Central,2017-10-02,False
+8498174646,Company_4646,Trade,Eastern,2007-07-17,True
+3719679239,Company_9239,Mining,Kampala Metropolitan,2008-09-11,False
+6795522649,Company_2649,Transport, Northern,2010-08-07,True
+2099375147,Company_5147,Trade,Kampala Metropolitan,2006-11-09,True
+3815389788,Company_9788,Trade,Western,2020-10-23,True
+7977267911,Company_7911,Finance,Eastern,2006-10-09,True
+7308968023,Company_8023,Transport,Eastern,2012-04-27,True
+5613613759,Company_3759,Agriculture,Western,2001-09-08,True
+8867077130,Company_7130,Manufacturing,Central,2022-09-29,True
+5471158508,Company_8508,Finance,Kampala Metropolitan,2008-06-11,True
+5560712830,Company_2830,Manufacturing,Eastern,2003-10-13,True
+1741134891,Company_4891,Trade,Western,2019-09-17,True
+3619094295,Company_4295,Services,Eastern,2012-09-08,True
+8621268224,Company_8224,Transport,Kampala Metropolitan,2002-05-07,True
+8075122626,Company_2626,Manufacturing,Eastern,2004-03-28,True
+6955247915,Company_7915,Services,Kampala Metropolitan,2006-09-29,True
+6797436140,Company_6140,Transport,Western,2005-10-13,True
+5028688786,Company_8786,Services,Kampala Metropolitan,2016-11-23,True
+9991312028,Company_2028,Transport,Western,2022-10-23,True
+6852312425,Company_2425,Trade, Northern,2015-04-30,False
+3088517710,Company_7710,Trade, Northern,2006-12-13,True
+9752058817,Company_8817,Services,Kampala Metropolitan,2005-11-17,True
+1662510569,Company_0569,Trade,Kampala Metropolitan,2007-06-05,True
+5482624860,Company_4860,Services, Northern,2019-12-04,True
+8661364201,Company_4201,Trade,Kampala Metropolitan,2010-09-23,True
+4586784711,Company_4711,Services,Kampala Metropolitan,2019-10-06,True
+7560389844,Company_9844,Trade, Northern,2006-03-17,False
+9814045133,Company_5133,Agriculture,Eastern,2004-08-07,True
+5830454240,Company_4240,Manufacturing, Northern,2012-03-27,True
+3204833223,Company_3223,Finance,Western,2004-02-11,False
+5409514899,Company_4899,Manufacturing,Western,2022-07-08,True
+5645459980,Company_9980,Trade,Central,2014-04-18,False
+8086527181,Company_7181,Finance, Northern,2006-03-04,True
+4569592370,Company_2370,Finance,Western,2020-02-14,True
+4890628295,Company_8295,Manufacturing,Eastern,2009-09-03,True
+7561728644,Company_8644,Manufacturing,Eastern,2010-08-29,True
+1205082311,Company_2311,Agriculture,Kampala Metropolitan,2020-07-03,True
+3302333490,Company_3490,Transport,Kampala Metropolitan,2010-11-07,True
+6545970956,Company_0956,Manufacturing,Kampala Metropolitan,2015-10-29,True
+2789144223,Company_4223,Transport,Central,2023-06-25,False
+3380064537,Company_4537,Agriculture,Western,2001-12-14,True
+9508499533,Company_9533,Services,Central,2016-01-07,True
+2480915452,Company_5452,Transport,Central,2014-11-30,True
+3760786161,Company_6161,Finance,Western,2021-06-19,True
+4485356009,Company_6009,Manufacturing,Western,2001-08-28,True
+5474951950,Company_1950,Services,Kampala Metropolitan,2017-11-11,False
+7627266377,Company_6377,Services,Central,2008-07-28,True
+8111312076,Company_2076,Services,Central,2016-07-04,True
+9403012103,Company_2103,Services, Northern,2022-04-04,True
+9944748312,Company_8312,Agriculture,Central,2019-04-26,True
+4531928910,Company_8910,Mining,Eastern,2014-05-29,True
+6564731230,Company_1230,Agriculture,Kampala Metropolitan,2019-02-11,True
+7201539282,Company_9282,Agriculture,Central,2015-10-25,True
+7163022531,Company_2531,Transport,Central,2003-05-14,True
+7039626948,Company_6948,Mining, Northern,2001-05-25,True
+8650676663,Company_6663,Manufacturing, Northern,2003-01-06,True
+8065920767,Company_0767,Services,Western,2001-06-14,True
+8211516617,Company_6617,Services,Eastern,2019-11-30,True
+3464975279,Company_5279,Mining,Eastern,2017-11-08,True
+2196963451,Company_3451,Manufacturing,Central,2008-05-06,True
+3412365931,Company_5931,Services,Eastern,2020-01-07,True
+7922959795,Company_9795,Transport,Western,2008-12-23,True
+4662861038,Company_1038,Agriculture, Northern,2019-12-19,False
+9532273208,Company_3208,Transport,Eastern,2002-11-29,True
+1963110410,Company_0410,Trade, Northern,2010-08-14,True
+5407856339,Company_6339,Mining,Kampala Metropolitan,2016-07-19,True
+4797809576,Company_9576,Manufacturing,Eastern,2017-11-10,False
+8382488970,Company_8970,Mining,Western,2018-05-14,True
+1316756902,Company_6902,Services,Central,2020-03-08,True
+7517011632,Company_1632,Trade,Kampala Metropolitan,2008-02-29,True
+5849159641,Company_9641,Mining,Central,2005-07-27,True
+2306204982,Company_4982,Trade,Eastern,2010-02-11,True
+9138644862,Company_4862,Finance,Central,2011-03-29,True
+2178758213,Company_8213,Transport,Eastern,2023-12-06,True
+3753020051,Company_0051,Mining,Kampala Metropolitan,2006-12-01,True
+4709911999,Company_1999,Manufacturing,Central,2011-11-15,True
+3744446292,Company_6292,Agriculture,Kampala Metropolitan,2012-12-28,True
+6592451645,Company_1645,Trade,Western,2013-05-05,True
+3957572769,Company_2769,Trade,Western,2018-08-23,True
+6171239466,Company_9466,Mining, Northern,2014-01-08,False
+2712474804,Company_4804,Finance,Eastern,2023-02-06,True
+2370592316,Company_2316,Agriculture,Central,2011-12-31,True
+1605064858,Company_4858,Manufacturing,Eastern,2017-03-25,False
+2795875043,Company_5043,Finance, Northern,2014-09-08,False
+8392190335,Company_0335,Trade, Northern,2022-05-08,False
+7299922974,Company_2974,Services,Western,2001-01-14,True
+2033921654,Company_1654,Mining,Eastern,2002-03-08,True
+7316122432,Company_2432,Mining,Central,2004-10-27,True
+9085085822,Company_5822,Transport,Eastern,2018-02-01,True
+2720484983,Company_4983,Mining,Kampala Metropolitan,2008-09-24,True
+2239534867,Company_4867,Agriculture,Kampala Metropolitan,2020-03-14,True
+1510289448,Company_9448,Manufacturing,Western,2016-09-27,True
+9327720702,Company_0702,Finance, Northern,2008-12-05,True
+1172893522,Company_3522,Manufacturing, Northern,2014-12-09,True
+7525484303,Company_4303,Trade,Kampala Metropolitan,2023-02-15,True
+2368076065,Company_6065,Agriculture,Kampala Metropolitan,2013-06-03,True
+7712708591,Company_8591,Agriculture,Central,2016-07-10,True
+3702653209,Company_3209,Mining,Western,2011-11-29,False
+3480920839,Company_0839,Transport,Central,2021-07-20,True
+8907752604,Company_2604,Trade, Northern,2001-06-01,True
+4008714405,Company_4405,Trade,Central,2019-10-13,True
+5945359606,Company_9606,Transport, Northern,2018-05-29,True
+4124168227,Company_8227,Transport, Northern,2023-04-08,True
+8139209752,Company_9752,Mining,Western,2014-01-27,False
+7584730597,Company_0597,Mining,Eastern,2011-11-10,True
+6353758928,Company_8928,Mining,Eastern,2010-02-01,False
+9513743139,Company_3139,Finance,Eastern,2009-04-19,True
+7395219544,Company_9544,Agriculture,Eastern,2012-04-07,True
+7627954353,Company_4353,Agriculture,Eastern,2006-07-27,True
+4067213499,Company_3499,Services,Western,2011-07-03,True
+1919066362,Company_6362,Finance,Kampala Metropolitan,2012-02-29,False
+8285000265,Company_0265,Trade,Central,2010-09-25,True
+3280805846,Company_5846,Transport, Northern,2002-05-10,True
+3028959334,Company_9334,Transport, Northern,2000-03-25,False
+5973319056,Company_9056,Transport,Western,2021-06-01,True
+6528675352,Company_5352,Services,Central,2004-01-05,True
+4957687327,Company_7327,Agriculture, Northern,2001-08-18,False
+3127657643,Company_7643,Transport,Eastern,2001-09-05,True
+9516893896,Company_3896,Services,Western,2023-07-09,True
+5031086659,Company_6659,Finance,Kampala Metropolitan,2020-12-29,True
+4473829163,Company_9163,Services, Northern,2020-08-01,True
+4086355679,Company_5679,Manufacturing,Eastern,2013-03-26,True
+4252504650,Company_4650,Trade,Kampala Metropolitan,2018-03-10,True
+7508080884,Company_0884,Manufacturing,Western,2004-04-11,True
+5898890707,Company_0707,Services, Northern,2000-04-21,True
+6306523372,Company_3372,Finance,Eastern,2014-10-14,True
+5344083406,Company_3406,Transport,Eastern,2010-08-07,True
+5802739154,Company_9154,Services, Northern,2018-03-09,True
+8601409432,Company_9432,Transport,Central,2013-03-26,True
+1948540266,Company_0266,Trade,Western,2006-11-14,True
+6899673770,Company_3770,Transport,Kampala Metropolitan,2021-02-13,True
+4545940090,Company_0090,Finance, Northern,2003-09-03,True
+2553854176,Company_4176,Mining,Central,2002-10-08,True
+3304937838,Company_7838,Trade,Eastern,2023-05-05,True
+3921845810,Company_5810,Transport,Kampala Metropolitan,2021-12-04,True
+7487012742,Company_2742,Finance,Central,2020-05-04,True
+7079202254,Company_2254,Mining,Central,2020-09-27,True
+5388470693,Company_0693,Services,Central,2009-10-10,True
+5489485517,Company_5517,Services,Central,2002-09-14,False
+9305502799,Company_2799,Manufacturing,Eastern,2018-05-04,True
+9434381915,Company_1915,Services,Western,2020-02-13,False
+9189503254,Company_3254,Agriculture,Central,2005-12-18,True
+2493660313,Company_0313,Trade,Kampala Metropolitan,2017-08-18,True
+6576426590,Company_6590,Transport,Kampala Metropolitan,2019-01-09,True
+4536306171,Company_6171,Trade,Western,2015-07-12,True
+4287754238,Company_4238,Manufacturing,Western,2000-09-13,True
+1289012242,Company_2242,Mining,Central,2020-01-10,True
+1209063208,Company_3208,Transport,Central,2018-01-16,True
+3318250726,Company_0726,Finance,Central,2006-04-14,True
+2242377075,Company_7075,Finance,Kampala Metropolitan,2014-04-21,True
+8809893329,Company_3329,Trade,Eastern,2006-06-05,False
+3238756255,Company_6255,Agriculture,Eastern,2012-05-05,True
+4915196257,Company_6257,Transport,Western,2022-03-26,True
+7547518979,Company_8979,Transport,Western,2018-04-24,True
+2616884203,Company_4203,Finance,Kampala Metropolitan,2021-03-29,True
+6262814762,Company_4762,Finance, Northern,2020-10-08,False
+7710396573,Company_6573,Agriculture,Kampala Metropolitan,2023-10-10,True
+6338036681,Company_6681,Trade,Eastern,2003-07-19,False
+8933377472,Company_7472,Manufacturing,Kampala Metropolitan,2008-07-17,True
+1312606333,Company_6333,Finance,Kampala Metropolitan,2009-09-25,True
+6725038117,Company_8117,Manufacturing, Northern,2008-07-10,False
+6173344564,Company_4564,Trade,Kampala Metropolitan,2014-06-05,True
+6929897032,Company_7032,Mining,Eastern,2013-11-01,True
+7430757004,Company_7004,Manufacturing,Western,2014-05-13,False
+6887132821,Company_2821,Agriculture,Central,2009-12-04,True
+5364631241,Company_1241,Mining,Kampala Metropolitan,2018-09-24,True
+6137604603,Company_4603,Trade,Western,2011-01-09,True
+8236361108,Company_1108,Services,Western,2022-01-02,True
+2512585138,Company_5138,Trade,Kampala Metropolitan,2021-11-26,True
+5111301175,Company_1175,Mining,Central,2003-05-02,False
+3869963931,Company_3931,Finance,Central,2018-07-01,True
+3708842947,Company_2947,Manufacturing, Northern,2000-05-29,True
+7253513875,Company_3875,Manufacturing,Kampala Metropolitan,2021-09-03,True
+1067567428,Company_7428,Mining,Kampala Metropolitan,2018-06-14,True
+9493209128,Company_9128,Manufacturing,Kampala Metropolitan,2019-04-25,True
+4907446848,Company_6848,Manufacturing,Central,2023-07-10,True
+7556078550,Company_8550,Finance,Eastern,2011-12-28,True
+5634352383,Company_2383,Agriculture,Western,2010-11-28,False
+6265016831,Company_6831,Transport,Central,2001-06-03,True
+6923893872,Company_3872,Mining,Western,2002-07-08,True
+4018696945,Company_6945,Manufacturing,Western,2019-06-19,True
+5182609867,Company_9867,Mining,Central,2010-04-22,True
+7337225482,Company_5482,Manufacturing,Central,2012-07-29,False
+1141312095,Company_2095,Finance,Eastern,2000-09-13,False
+3521300895,Company_0895,Finance,Western,2003-06-14,True
+3422182038,Company_2038,Mining,Western,2014-11-18,True
+4177181331,Company_1331,Finance,Central,2022-06-18,True
+2485455239,Company_5239,Manufacturing,Western,2010-05-31,True
+8617360361,Company_0361,Manufacturing,Eastern,2020-03-17,True
+9337145038,Company_5038,Agriculture, Northern,2017-01-18,True
+7951902330,Company_2330,Finance, Northern,2003-04-19,True
+5957341287,Company_1287,Transport, Northern,2017-06-23,True
+1457632732,Company_2732,Manufacturing,Eastern,2019-12-13,True
+2158638062,Company_8062,Trade,Central,2008-05-28,True
+7495883972,Company_3972,Manufacturing,Central,2004-01-08,True
+9989642546,Company_2546,Mining,Eastern,2017-04-12,True
+7072268003,Company_8003,Finance,Central,2010-11-21,True
+2635231601,Company_1601,Trade,Eastern,2013-07-04,True
+1626785308,Company_5308,Trade,Western,2012-05-18,True
+5625342041,Company_2041,Services, Northern,2022-03-29,True
+6134840512,Company_0512,Manufacturing, Northern,2013-08-31,True
+6994451417,Company_1417,Finance,Kampala Metropolitan,2017-01-15,True
+6710338189,Company_8189,Services,Western,2006-02-08,True
+3986257683,Company_7683,Agriculture,Eastern,2007-12-20,False
+9455610447,Company_0447,Services,Western,2010-11-15,True
+8670238355,Company_8355,Services,Central,2008-12-17,True
+3343459102,Company_9102,Transport,Kampala Metropolitan,2001-03-16,False
+4042413312,Company_3312,Agriculture,Eastern,2003-02-07,True
+3144490990,Company_0990,Transport,Eastern,2010-11-09,True
+2619163247,Company_3247,Agriculture,Kampala Metropolitan,2021-06-30,True
+9454334062,Company_4062,Transport,Kampala Metropolitan,2003-10-24,True
+8149805821,Company_5821,Trade,Kampala Metropolitan,2001-12-26,True
+8072709948,Company_9948,Finance,Eastern,2019-04-23,True
+5718479235,Company_9235,Trade,Kampala Metropolitan,2023-04-09,True
+6244291385,Company_1385,Services,Western,2020-10-08,True
+3149484176,Company_4176,Services,Central,2021-08-27,True
+5130589741,Company_9741,Manufacturing, Northern,2015-08-17,True
+7369118672,Company_8672,Agriculture,Central,2019-08-27,True
+7238213207,Company_3207,Manufacturing,Eastern,2002-01-02,True
+1494287462,Company_7462,Finance,Eastern,2004-11-26,True
+5982744929,Company_4929,Mining,Western,2020-09-22,True
+1792214339,Company_4339,Transport,Western,2017-09-29,True
+6142469284,Company_9284,Mining,Western,2017-06-10,True
+1922542252,Company_2252,Services,Central,2004-07-25,True
+3305920746,Company_0746,Services,Eastern,2008-11-02,True
+8999963054,Company_3054,Mining,Eastern,2017-06-07,True
+3521166052,Company_6052,Services,Eastern,2020-07-15,True
+9953941533,Company_1533,Trade,Eastern,2005-04-15,True
+1502291736,Company_1736,Services, Northern,2022-11-30,True
+3561629386,Company_9386,Mining,Western,2018-12-23,True
+5294535887,Company_5887,Mining, Northern,2021-12-18,True
+6098549568,Company_9568,Finance,Western,2002-05-28,False
+5088130061,Company_0061,Agriculture, Northern,2008-10-01,True
+7420846622,Company_6622,Transport,Western,2018-08-23,True
+7201296029,Company_6029,Trade,Central,2001-05-20,True
+6242134332,Company_4332,Manufacturing,Eastern,2010-01-31,True
+8584566722,Company_6722,Mining,Kampala Metropolitan,2005-01-28,True
+9550822977,Company_2977,Mining,Central,2019-10-19,True
+9546021691,Company_1691,Manufacturing, Northern,2013-05-09,False
+5433395802,Company_5802,Services,Eastern,2003-11-26,True
+5269015757,Company_5757,Finance, Northern,2009-05-31,True
+8012696455,Company_6455,Trade,Kampala Metropolitan,2006-03-31,True
+4494084172,Company_4172,Finance,Central,2015-09-26,True
+6018142572,Company_2572,Transport,Eastern,2012-12-23,True
+4501175349,Company_5349,Trade,Western,2002-08-29,False
+4719780110,Company_0110,Trade, Northern,2014-06-13,True
+8199372599,Company_2599,Agriculture, Northern,2012-01-20,True
+6906320181,Company_0181,Manufacturing,Central,2018-01-26,True
+6880115912,Company_5912,Agriculture,Eastern,2000-02-10,False
+9989974968,Company_4968,Agriculture,Eastern,2002-11-03,True
+2708176663,Company_6663,Agriculture, Northern,2022-03-11,True
+8852676046,Company_6046,Services,Kampala Metropolitan,2005-11-09,True
+1207916194,Company_6194,Manufacturing,Western,2000-09-23,True
+4683585586,Company_5586,Agriculture,Western,2000-01-12,False
+2837384013,Company_4013,Transport, Northern,2013-07-16,True
+2176904638,Company_4638,Transport,Eastern,2011-03-26,True
+3787052438,Company_2438,Manufacturing,Western,2013-09-14,True
+4243697409,Company_7409,Agriculture,Central,2004-04-08,True
+3047869247,Company_9247,Trade,Kampala Metropolitan,2010-02-22,True
+2911547690,Company_7690,Manufacturing,Eastern,2005-05-29,False
+5862655247,Company_5247,Manufacturing, Northern,2017-03-08,True
+4461558269,Company_8269,Manufacturing,Eastern,2016-06-27,False
+5883933127,Company_3127,Finance, Northern,2006-05-29,True
+3419317349,Company_7349,Mining, Northern,2019-09-28,True
+4213790202,Company_0202,Agriculture,Kampala Metropolitan,2019-11-05,False
+1431494396,Company_4396,Finance,Central,2017-03-23,True
+7139177917,Company_7917,Finance, Northern,2011-02-11,True
+1361845490,Company_5490,Mining,Kampala Metropolitan,2012-10-12,True
+3965572185,Company_2185,Finance,Eastern,2009-03-20,True
+3188382776,Company_2776,Transport,Western,2013-04-04,True
+6322929387,Company_9387,Agriculture,Central,2010-10-24,True
+3550908958,Company_8958,Mining,Central,2016-03-13,False
+5861829469,Company_9469,Finance,Kampala Metropolitan,2018-11-17,True
+3933213766,Company_3766,Finance,Western,2003-04-10,True
+1290050198,Company_0198,Services, Northern,2001-10-14,False
+8589679668,Company_9668,Agriculture,Western,2003-09-12,True
+5950724801,Company_4801,Manufacturing,Eastern,2003-07-18,True
